@@ -7,7 +7,8 @@ set backspace=indent,eol,start
 
 "store lots of :cmdline history
 set history=1000
-colorscheme grb3
+colorscheme vibrantink 
+
 set showcmd     "show incomplete cmds down the bottom
 set showmode    "show current mode down the bottom
 
