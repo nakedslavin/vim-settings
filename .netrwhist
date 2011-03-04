@@ -1,8 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/rob'
 let g:netrw_dirhist_2='/Users/rob/Sites/fampus'
 let g:netrw_dirhist_3='/Users/rob/Dropbox/Fampus/site'
 let g:netrw_dirhist_4='/home/u/Projects'
 let g:netrw_dirhist_5='/home/u/vim-settings/colors'
 let g:netrw_dirhist_6='/home/u/Projects'
+let g:netrw_dirhist_7='/tmp/portfolio'
+let g:netrw_dirhist_8='/home/u/Dropbox/dhub/portfolio'
+let g:netrw_dirhist_9='/home/u/Dropbox/dhub/folio'
