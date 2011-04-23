@@ -7,7 +7,7 @@ set backspace=indent,eol,start
 
 "store lots of :cmdline history
 set history=1000
-colorscheme vibrantink 
+colorscheme desert 
 
 set showcmd     "show incomplete cmds down the bottom
 set showmode    "show current mode down the bottom
@@ -286,3 +286,7 @@ function! s:HighlightLongLines(width)
         echomsg "Usage: HighlightLongLines [natural number]"
     endif
 endfunction
+
+if has("gui_running")
+    set guioptions=egmrt
+endif
