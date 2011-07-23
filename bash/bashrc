@@ -1,0 +1,4 @@
+export NODE_PATH="/usr/local/lib/node"
+export GIT_EDITOR='/usr/local/bin/mvim -gf '
+export PATH=/Users/asrian/scripts:$PATH
+export PS1="\w\n★ "
