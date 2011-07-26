@@ -1,5 +1,5 @@
-===my vim settings (for personal usage obviously)
-based on Rob's repo
+### my vim settings
+####based on Rob's repo
 
 ```shell
 cd ~ && 
@@ -12,11 +12,12 @@ ln -s ~/vim-settings/bash_profile .bash_profile  &&
 touch .hushlogin
 ```
 
-
+####Macvim version with [Stephen Colbert][0]
 <img src="https://github.com/nakedslavin/vim-settings/raw/master/images/macvim.jpg" />
 
-macvim version
 
+####Terminal Vim version, again with [Stephen Colbert][0]
 <img src="https://github.com/nakedslavin/vim-settings/raw/master/images/vim_terminal.jpg" />
 
-terminal version
+
+[0]: http://en.wikipedia.org/wiki/Stephen_Colbert
