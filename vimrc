@@ -94,7 +94,7 @@ endfunction
 
 "recalculate the tab warning flag when idle and after writing
 autocmd cursorhold,bufwritepost * unlet! b:statusline_tab_warning
-
+autocmd BufWritePost *.coffee silent CoffeeMake! -b | cwindow | redraw!
 "return '[&et]' if &et is set wrong
 "return '[mixed-indenting]' if spaces and tabs are used to indent
 "return an empty string if everything is fine
