@@ -1,5 +1,5 @@
-#my vim settings (for personal usage obviously)
-#based on Rob's repo
+!!!my vim settings (for personal usage obviously)
+!!!based on Rob's repo
 
 ```shell
 cd ~ && 
@@ -11,3 +11,9 @@ ln -s ~/vim-settings/bashrc .bashrc &&
 ln -s ~/vim-settings/bash_profile .bash_profile  &&
 touch .hushlogin
 ```
+
+<img src="https://github.com/nakedslavin/vim-settings/raw/master/images/macvim.jpg" />
+macvim version
+
+<img src="https://github.com/nakedslavin/vim-settings/raw/master/images/vim_terminal.jpg" />
+terminal version
