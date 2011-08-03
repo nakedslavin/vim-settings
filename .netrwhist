@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/asrian/sky/vim-settings'
 let g:netrw_dirhist_2='/Users/asrian/sky/striderdi'
 let g:netrw_dirhist_3='/Users/asrian/Projects/csharp_official_driver'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/Users/asrian/Projects/peepcode-057-coffeescript-code'
 let g:netrw_dirhist_6='/Users/asrian/Downloads/searchstringinfile'
 let g:netrw_dirhist_7='/Users/asrian/Projects/csharp_official_driver'
 let g:netrw_dirhist_8='/Users/asrian/sky/striderdi'
+let g:netrw_dirhist_9='/Users/asrian/sky/vim-settings'

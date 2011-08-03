@@ -1,0 +1,52 @@
+snippet fun
+	${1:function_name}(${2:argument}) ->
+		${3:# body...}
+
+snippet f
+	(${1}) -> ${2}
+
+snippet ife
+	if ${1:true} 
+		${2}
+	else
+		${3}
+
+snippet t
+	if ${1:/* condition */} then ${2:a} else ${3:b}
+
+snippet switch
+	switch ${1:expression}
+		when '${2:case}' then
+			${3:# code}
+		${4}
+		else
+			${5:# code}
+
+snippet for
+	for ${2:i} in ${1:Things}
+		${3:# code}
+
+snippet do
+	do (${1:function}) ->
+		${2:/* code */}
+
+snippet cl
+	class ${1:Name}
+		constructor: (@${2:args}) ->
+			${3:# code}
+
+snippet :f
+	${1:method_name}: function(${2:arguments}) ->
+		${3:# code}
+
+snippet :ff
+	${1:method_name}: function(${2:arguments}) =>
+		${3:# code}
+
+snippet timeout
+	setTimeout ((${1:args})-> ${2}), ${3:10}
+
+snippet re
+	${1} = ///
+	${2}
+	///
