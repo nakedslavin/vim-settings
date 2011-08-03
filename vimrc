@@ -290,3 +290,6 @@ endfunction
 if has("gui_running")
     set guioptions=egmrt
 endif
+
+map <F1> <Esc>:NERDTreeToggle<CR>
+map <F2> <Esc>:!ruby %<CR>
